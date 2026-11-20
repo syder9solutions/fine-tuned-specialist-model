@@ -1,0 +1,896 @@
+{
+  "base": {
+    "arm": "SmolLM2-135M-Instruct",
+    "n": 107,
+    "accuracy": 0.2804,
+    "macro_f1": 0.2678,
+    "brier": 0.38526,
+    "ece": 0.3665,
+    "reliability_bins": [
+      {
+        "bin": "0.3-0.4",
+        "n": 8,
+        "mean_confidence": 0.3544,
+        "accuracy": 0.5,
+        "gap": 0.1456
+      },
+      {
+        "bin": "0.4-0.5",
+        "n": 21,
+        "mean_confidence": 0.4465,
+        "accuracy": 0.4286,
+        "gap": -0.0179
+      },
+      {
+        "bin": "0.5-0.6",
+        "n": 28,
+        "mean_confidence": 0.5422,
+        "accuracy": 0.2143,
+        "gap": -0.328
+      },
+      {
+        "bin": "0.6-0.7",
+        "n": 13,
+        "mean_confidence": 0.6526,
+        "accuracy": 0.1538,
+        "gap": -0.4987
+      },
+      {
+        "bin": "0.7-0.8",
+        "n": 11,
+        "mean_confidence": 0.7579,
+        "accuracy": 0.5455,
+        "gap": -0.2125
+      },
+      {
+        "bin": "0.8-0.9",
+        "n": 19,
+        "mean_confidence": 0.8439,
+        "accuracy": 0.1579,
+        "gap": -0.686
+      },
+      {
+        "bin": "0.9-1.0",
+        "n": 7,
+        "mean_confidence": 0.948,
+        "accuracy": 0.0,
+        "gap": -0.948
+      }
+    ],
+    "escalation": {
+      "escalation_recall": 0.0,
+      "false_escalation_rate": 0.0,
+      "n_should_escalate": 32,
+      "n_routable": 75
+    },
+    "per_class": {
+      "summarize": {
+        "precision": 0.1724,
+        "recall": 1.0,
+        "f1": 0.2941,
+        "support": 10
+      },
+      "translate": {
+        "precision": 0.5556,
+        "recall": 0.4167,
+        "f1": 0.4762,
+        "support": 12
+      },
+      "qa": {
+        "precision": 0.1905,
+        "recall": 0.5714,
+        "f1": 0.2857,
+        "support": 7
+      },
+      "retrieval": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8
+      },
+      "code": {
+        "precision": 0.3333,
+        "recall": 0.1,
+        "f1": 0.1538,
+        "support": 10
+      },
+      "math": {
+        "precision": 0.7778,
+        "recall": 0.6364,
+        "f1": 0.7,
+        "support": 11
+      },
+      "creative": {
+        "precision": 1.0,
+        "recall": 0.3333,
+        "f1": 0.5,
+        "support": 9
+      },
+      "smalltalk": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8
+      },
+      "escalate": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 32
+      }
+    },
+    "confusion_matrix": {
+      "summarize": {
+        "summarize": 10,
+        "translate": 0,
+        "qa": 0,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "translate": {
+        "summarize": 2,
+        "translate": 5,
+        "qa": 5,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "qa": {
+        "summarize": 3,
+        "translate": 0,
+        "qa": 4,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "retrieval": {
+        "summarize": 3,
+        "translate": 0,
+        "qa": 5,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "code": {
+        "summarize": 7,
+        "translate": 0,
+        "qa": 2,
+        "retrieval": 0,
+        "code": 1,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "math": {
+        "summarize": 3,
+        "translate": 0,
+        "qa": 1,
+        "retrieval": 0,
+        "code": 0,
+        "math": 7,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "creative": {
+        "summarize": 4,
+        "translate": 0,
+        "qa": 1,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 3,
+        "smalltalk": 1,
+        "escalate": 0
+      },
+      "smalltalk": {
+        "summarize": 6,
+        "translate": 0,
+        "qa": 2,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "escalate": {
+        "summarize": 20,
+        "translate": 4,
+        "qa": 1,
+        "retrieval": 0,
+        "code": 2,
+        "math": 2,
+        "creative": 0,
+        "smalltalk": 3,
+        "escalate": 0
+      }
+    },
+    "mean_latency_ms": 1545.25,
+    "p95_latency_ms": 1545.25,
+    "failure_modes": [
+      {
+        "kind": "ambiguous",
+        "n_errors": 7,
+        "top_confusions": [
+          {
+            "pair": "escalate->summarize",
+            "n": 7
+          }
+        ],
+        "examples": [
+          {
+            "text": "just make it better",
+            "gold": "escalate",
+            "pred": "summarize",
+            "confidence": 0.8493
+          },
+          {
+            "text": "hey can you just make it better",
+            "gold": "escalate",
+            "pred": "summarize",
+            "confidence": 0.8227
+          },
+          {
+            "text": "do the thing we talked about please",
+            "gold": "escalate",
+            "pred": "summarize",
+            "confidence": 0.7634
+          }
+        ]
+      },
+      {
+        "kind": "intent",
+        "n_errors": 45,
+        "top_confusions": [
+          {
+            "pair": "code->summarize",
+            "n": 7
+          },
+          {
+            "pair": "smalltalk->summarize",
+            "n": 6
+          },
+          {
+            "pair": "retrieval->qa",
+            "n": 5
+          },
+          {
+            "pair": "translate->qa",
+            "n": 5
+          },
+          {
+            "pair": "creative->summarize",
+            "n": 4
+          }
+        ],
+        "examples": [
+          {
+            "text": "no worries talk later thanks",
+            "gold": "smalltalk",
+            "pred": "summarize",
+            "confidence": 0.6101
+          },
+          {
+            "text": "show me the email thread about the data migration please",
+            "gold": "retrieval",
+            "pred": "summarize",
+            "confidence": 0.5707
+          },
+          {
+            "text": "write a regex that matches jwt tokens",
+            "gold": "code",
+            "pred": "summarize",
+            "confidence": 0.6287
+          }
+        ]
+      },
+      {
+        "kind": "multi_intent",
+        "n_errors": 7,
+        "top_confusions": [
+          {
+            "pair": "escalate->summarize",
+            "n": 5
+          },
+          {
+            "pair": "escalate->translate",
+            "n": 2
+          }
+        ],
+        "examples": [
+          {
+            "text": "summarize this article and then translate the summary to spanish",
+            "gold": "escalate",
+            "pred": "summarize",
+            "confidence": 0.8955
+          },
+          {
+            "text": "quick one: summarize this article and then translate the summary to spanish",
+            "gold": "escalate",
+            "pred": "summarize",
+            "confidence": 0.649
+          },
+          {
+            "text": "find the ticket and update it with a summary",
+            "gold": "escalate",
+            "pred": "summarize",
+            "confidence": 0.8682
+          }
+        ]
+      },
+      {
+        "kind": "near_miss_entity",
+        "n_errors": 6,
+        "top_confusions": [
+          {
+            "pair": "escalate->math",
+            "n": 2
+          },
+          {
+            "pair": "escalate->smalltalk",
+            "n": 2
+          },
+          {
+            "pair": "escalate->summarize",
+            "n": 2
+          }
+        ],
+        "examples": [
+          {
+            "text": "smalltalk is her podcast thanks",
+            "gold": "escalate",
+            "pred": "smalltalk",
+            "confidence": 0.873
+          },
+          {
+            "text": "smalltalk is her podcast",
+            "gold": "escalate",
+            "pred": "smalltalk",
+            "confidence": 0.8748
+          },
+          {
+            "text": "summarize is our new intern",
+            "gold": "escalate",
+            "pred": "summarize",
+            "confidence": 0.9402
+          }
+        ]
+      },
+      {
+        "kind": "near_miss_lexical",
+        "n_errors": 6,
+        "top_confusions": [
+          {
+            "pair": "escalate->code",
+            "n": 2
+          },
+          {
+            "pair": "escalate->translate",
+            "n": 2
+          },
+          {
+            "pair": "escalate->qa",
+            "n": 1
+          },
+          {
+            "pair": "escalate->summarize",
+            "n": 1
+          }
+        ],
+        "examples": [
+          {
+            "text": "quick one: code review meeting moved to thursday",
+            "gold": "escalate",
+            "pred": "code",
+            "confidence": 0.8072
+          },
+          {
+            "text": "summarize module is throwing an import error",
+            "gold": "escalate",
+            "pred": "summarize",
+            "confidence": 0.371
+          },
+          {
+            "text": "code review meeting moved to thursday",
+            "gold": "escalate",
+            "pred": "code",
+            "confidence": 0.8675
+          }
+        ]
+      },
+      {
+        "kind": "near_miss_negation",
+        "n_errors": 6,
+        "top_confusions": [
+          {
+            "pair": "escalate->summarize",
+            "n": 5
+          },
+          {
+            "pair": "escalate->smalltalk",
+            "n": 1
+          }
+        ],
+        "examples": [
+          {
+            "text": "no smalltalk just give me the data",
+            "gold": "escalate",
+            "pred": "summarize",
+            "confidence": 0.44
+          },
+          {
+            "text": "you dont need to summarize anything",
+            "gold": "escalate",
+            "pred": "summarize",
+            "confidence": 0.8143
+          },
+          {
+            "text": "no smalltalk just give me the data thanks",
+            "gold": "escalate",
+            "pred": "smalltalk",
+            "confidence": 0.349
+          }
+        ]
+      }
+    ]
+  },
+  "finetune": {
+    "arm": "LoRA-SmolLM2-135M",
+    "n": 107,
+    "accuracy": 0.8318,
+    "macro_f1": 0.7997,
+    "brier": 0.13581,
+    "ece": 0.0892,
+    "reliability_bins": [
+      {
+        "bin": "0.3-0.4",
+        "n": 1,
+        "mean_confidence": 0.3852,
+        "accuracy": 1.0,
+        "gap": 0.6148
+      },
+      {
+        "bin": "0.4-0.5",
+        "n": 3,
+        "mean_confidence": 0.4877,
+        "accuracy": 0.6667,
+        "gap": 0.179
+      },
+      {
+        "bin": "0.5-0.6",
+        "n": 6,
+        "mean_confidence": 0.5573,
+        "accuracy": 0.6667,
+        "gap": 0.1093
+      },
+      {
+        "bin": "0.6-0.7",
+        "n": 7,
+        "mean_confidence": 0.6493,
+        "accuracy": 0.5714,
+        "gap": -0.0779
+      },
+      {
+        "bin": "0.7-0.8",
+        "n": 12,
+        "mean_confidence": 0.7601,
+        "accuracy": 0.8333,
+        "gap": 0.0732
+      },
+      {
+        "bin": "0.8-0.9",
+        "n": 18,
+        "mean_confidence": 0.8585,
+        "accuracy": 0.6111,
+        "gap": -0.2474
+      },
+      {
+        "bin": "0.9-1.0",
+        "n": 60,
+        "mean_confidence": 0.9809,
+        "accuracy": 0.95,
+        "gap": -0.0309
+      }
+    ],
+    "escalation": {
+      "escalation_recall": 0.7812,
+      "false_escalation_rate": 0.0667,
+      "n_should_escalate": 32,
+      "n_routable": 75
+    },
+    "per_class": {
+      "summarize": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "translate": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571,
+        "support": 12
+      },
+      "qa": {
+        "precision": 1.0,
+        "recall": 0.1429,
+        "f1": 0.25,
+        "support": 7
+      },
+      "retrieval": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333,
+        "support": 8
+      },
+      "code": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8,
+        "support": 10
+      },
+      "math": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "creative": {
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1": 0.75,
+        "support": 9
+      },
+      "smalltalk": {
+        "precision": 0.8571,
+        "recall": 0.75,
+        "f1": 0.8,
+        "support": 8
+      },
+      "escalate": {
+        "precision": 0.8333,
+        "recall": 0.7812,
+        "f1": 0.8065,
+        "support": 32
+      }
+    },
+    "confusion_matrix": {
+      "summarize": {
+        "summarize": 10,
+        "translate": 0,
+        "qa": 0,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "translate": {
+        "summarize": 0,
+        "translate": 12,
+        "qa": 0,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "qa": {
+        "summarize": 0,
+        "translate": 0,
+        "qa": 1,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 6,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "retrieval": {
+        "summarize": 0,
+        "translate": 0,
+        "qa": 0,
+        "retrieval": 7,
+        "code": 0,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 1
+      },
+      "code": {
+        "summarize": 0,
+        "translate": 0,
+        "qa": 0,
+        "retrieval": 0,
+        "code": 8,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 2
+      },
+      "math": {
+        "summarize": 0,
+        "translate": 0,
+        "qa": 0,
+        "retrieval": 0,
+        "code": 0,
+        "math": 11,
+        "creative": 0,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "creative": {
+        "summarize": 0,
+        "translate": 0,
+        "qa": 0,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 9,
+        "smalltalk": 0,
+        "escalate": 0
+      },
+      "smalltalk": {
+        "summarize": 0,
+        "translate": 0,
+        "qa": 0,
+        "retrieval": 0,
+        "code": 0,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 6,
+        "escalate": 2
+      },
+      "escalate": {
+        "summarize": 0,
+        "translate": 4,
+        "qa": 0,
+        "retrieval": 0,
+        "code": 2,
+        "math": 0,
+        "creative": 0,
+        "smalltalk": 1,
+        "escalate": 25
+      }
+    },
+    "mean_latency_ms": 1597.726,
+    "p95_latency_ms": 1597.73,
+    "failure_modes": [
+      {
+        "kind": "ambiguous",
+        "n_errors": 1,
+        "top_confusions": [
+          {
+            "pair": "escalate->smalltalk",
+            "n": 1
+          }
+        ],
+        "examples": [
+          {
+            "text": "you know what i mean thanks",
+            "gold": "escalate",
+            "pred": "smalltalk",
+            "confidence": 0.7658
+          }
+        ]
+      },
+      {
+        "kind": "intent",
+        "n_errors": 11,
+        "top_confusions": [
+          {
+            "pair": "qa->creative",
+            "n": 6
+          },
+          {
+            "pair": "code->escalate",
+            "n": 2
+          },
+          {
+            "pair": "smalltalk->escalate",
+            "n": 2
+          },
+          {
+            "pair": "retrieval->escalate",
+            "n": 1
+          }
+        ],
+        "examples": [
+          {
+            "text": "no worries talk later",
+            "gold": "smalltalk",
+            "pred": "escalate",
+            "confidence": 0.5145
+          },
+          {
+            "text": "who wrote the paper on attention is all you need thanks",
+            "gold": "qa",
+            "pred": "creative",
+            "confidence": 0.682
+          },
+          {
+            "text": "quick one: no worries talk later",
+            "gold": "smalltalk",
+            "pred": "escalate",
+            "confidence": 0.5997
+          }
+        ]
+      },
+      {
+        "kind": "multi_intent",
+        "n_errors": 4,
+        "top_confusions": [
+          {
+            "pair": "escalate->translate",
+            "n": 4
+          }
+        ],
+        "examples": [
+          {
+            "text": "summarize this article and then translate the summary to spanish",
+            "gold": "escalate",
+            "pred": "translate",
+            "confidence": 0.9974
+          },
+          {
+            "text": "quick one: summarize this article and then translate the summary to spanish",
+            "gold": "escalate",
+            "pred": "translate",
+            "confidence": 0.9937
+          },
+          {
+            "text": "i need you to summarize this article and then translate the summary to spanish",
+            "gold": "escalate",
+            "pred": "translate",
+            "confidence": 0.9786
+          }
+        ]
+      },
+      {
+        "kind": "near_miss_lexical",
+        "n_errors": 2,
+        "top_confusions": [
+          {
+            "pair": "escalate->code",
+            "n": 2
+          }
+        ],
+        "examples": [
+          {
+            "text": "summarize module is throwing an import error",
+            "gold": "escalate",
+            "pred": "code",
+            "confidence": 0.8967
+          },
+          {
+            "text": "quick one: summarize module is throwing an import error",
+            "gold": "escalate",
+            "pred": "code",
+            "confidence": 0.8841
+          }
+        ]
+      }
+    ]
+  },
+  "comparison": {
+    "accuracy_delta": {
+      "observed_delta": 0.5514,
+      "ci_low": 0.4393,
+      "ci_high": 0.6542,
+      "confidence": 0.95,
+      "n_boot": 2000,
+      "p_delta_le_zero": 0.0
+    },
+    "mcnemar": {
+      "a_only_correct": 63,
+      "b_only_correct": 4,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "brier_delta": {
+      "observed_delta": -0.2495,
+      "ci_low": -0.3104,
+      "ci_high": -0.1862,
+      "confidence": 0.95,
+      "n_boot": 2000,
+      "p_delta_le_zero": 1.0
+    },
+    "beats_base": true,
+    "beats_base_pointwise": true
+  },
+  "cost": {
+    "specialist_usd_per_1k": 0.002034,
+    "frontier_usd_per_1k": 0.0072,
+    "frontier_to_specialist_ratio": 3.5,
+    "assumptions": {
+      "specialist_tokens_per_req": 42,
+      "specialist_tokens_per_second": "measured",
+      "usd_per_cpu_hour": 0.05,
+      "usd_per_cpu_hour_basis": "assumed: electricity + amortisation, stated by operator",
+      "frontier_input_usd_per_1m": 0.15,
+      "frontier_output_usd_per_1m": 0.6,
+      "frontier_input_tokens": 40,
+      "frontier_output_tokens": 2,
+      "frontier_pricing_basis": "published list price, not measured here"
+    }
+  },
+  "leakage": {
+    "train_rows": 418,
+    "test_rows": 107,
+    "exact_overlap_count": 0,
+    "near_duplicate_count": 0,
+    "near_duplicate_threshold": 0.85,
+    "exact_overlap_examples": [],
+    "near_duplicate_examples": [],
+    "passed": true
+  },
+  "curation": {
+    "seed": 20261119,
+    "paraphrases_per_seed": 6,
+    "confusers_per_kind": 26,
+    "raw_rows": 610,
+    "deduped_rows": 525,
+    "dropped_duplicates": 85,
+    "train_rows": 418,
+    "test_rows": 107,
+    "test_ratio_actual": 0.2038,
+    "label_counts_train": {
+      "code": 39,
+      "creative": 44,
+      "escalate": 96,
+      "math": 44,
+      "qa": 39,
+      "retrieval": 40,
+      "smalltalk": 32,
+      "summarize": 37,
+      "translate": 47
+    },
+    "label_counts_test": {
+      "code": 10,
+      "creative": 9,
+      "escalate": 32,
+      "math": 11,
+      "qa": 7,
+      "retrieval": 8,
+      "smalltalk": 8,
+      "summarize": 10,
+      "translate": 12
+    },
+    "kind_counts_train": {
+      "ambiguous": 19,
+      "intent": 322,
+      "multi_intent": 19,
+      "near_miss_entity": 19,
+      "near_miss_lexical": 20,
+      "near_miss_negation": 19
+    },
+    "kind_counts_test": {
+      "ambiguous": 7,
+      "intent": 75,
+      "multi_intent": 7,
+      "near_miss_entity": 6,
+      "near_miss_lexical": 6,
+      "near_miss_negation": 6
+    },
+    "train_sha256": "2b12418fce079118",
+    "test_sha256": "5aa7eebb02700a0d"
+  },
+  "throughput_tokens_per_second": 286.7
+}

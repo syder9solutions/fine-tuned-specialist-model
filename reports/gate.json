@@ -1,0 +1,49 @@
+{
+  "leakage": {
+    "train_rows": 418,
+    "test_rows": 107,
+    "exact_overlap_count": 0,
+    "near_duplicate_count": 0,
+    "near_duplicate_threshold": 0.85,
+    "exact_overlap_examples": [],
+    "near_duplicate_examples": [],
+    "passed": true
+  },
+  "split_valid": true,
+  "accuracy": {
+    "base": 0.2804,
+    "finetune": 0.8318
+  },
+  "comparison": {
+    "accuracy_delta": {
+      "observed_delta": 0.5514,
+      "ci_low": 0.4393,
+      "ci_high": 0.6542,
+      "confidence": 0.95,
+      "n_boot": 2000,
+      "p_delta_le_zero": 0.0
+    },
+    "mcnemar": {
+      "a_only_correct": 63,
+      "b_only_correct": 4,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "brier_delta": {
+      "observed_delta": -0.2495,
+      "ci_low": -0.3104,
+      "ci_high": -0.1862,
+      "confidence": 0.95,
+      "n_boot": 2000,
+      "p_delta_le_zero": 1.0
+    },
+    "beats_base": true,
+    "beats_base_pointwise": true
+  },
+  "significant_improvement": true,
+  "brier": {
+    "base": 0.38526,
+    "finetune": 0.13581
+  },
+  "verdict": "PASS"
+}

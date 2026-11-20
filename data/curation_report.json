@@ -1,0 +1,51 @@
+{
+  "seed": 20261119,
+  "paraphrases_per_seed": 6,
+  "confusers_per_kind": 26,
+  "raw_rows": 610,
+  "deduped_rows": 525,
+  "dropped_duplicates": 85,
+  "train_rows": 418,
+  "test_rows": 107,
+  "test_ratio_actual": 0.2038,
+  "label_counts_train": {
+    "code": 39,
+    "creative": 44,
+    "escalate": 96,
+    "math": 44,
+    "qa": 39,
+    "retrieval": 40,
+    "smalltalk": 32,
+    "summarize": 37,
+    "translate": 47
+  },
+  "label_counts_test": {
+    "code": 10,
+    "creative": 9,
+    "escalate": 32,
+    "math": 11,
+    "qa": 7,
+    "retrieval": 8,
+    "smalltalk": 8,
+    "summarize": 10,
+    "translate": 12
+  },
+  "kind_counts_train": {
+    "ambiguous": 19,
+    "intent": 322,
+    "multi_intent": 19,
+    "near_miss_entity": 19,
+    "near_miss_lexical": 20,
+    "near_miss_negation": 19
+  },
+  "kind_counts_test": {
+    "ambiguous": 7,
+    "intent": 75,
+    "multi_intent": 7,
+    "near_miss_entity": 6,
+    "near_miss_lexical": 6,
+    "near_miss_negation": 6
+  },
+  "train_sha256": "2b12418fce079118",
+  "test_sha256": "5aa7eebb02700a0d"
+}

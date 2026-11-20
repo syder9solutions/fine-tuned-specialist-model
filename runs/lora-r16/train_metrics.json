@@ -1,0 +1,80 @@
+{
+  "base_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "train_cfg": {
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0,
+    "epochs": 6,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "max_seq_len": 128,
+    "warmup_ratio": 0.06,
+    "max_grad_norm": 1.0,
+    "seed": 20261119,
+    "val_fraction": 0.15,
+    "early_stop_patience": 2,
+    "escalate_class_weight": 1.0
+  },
+  "lora_cfg": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "n_train_inner": 354,
+  "n_val": 64,
+  "epochs_run": 6,
+  "best_epoch": 6,
+  "best_val_loss": 0.01206,
+  "trainable_params": 1843200,
+  "total_params": 136358208,
+  "wall_clock_seconds": 1211.3,
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 2.235,
+      "val_loss": 0.75042,
+      "val_token_acc": 0.8129,
+      "lr": 0.00048375
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.31602,
+      "val_loss": 0.22041,
+      "val_token_acc": 0.9281,
+      "lr": 0.00040179
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.07885,
+      "val_loss": 0.08326,
+      "val_token_acc": 0.9712,
+      "lr": 0.00027413
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.01731,
+      "val_loss": 0.02169,
+      "val_token_acc": 1.0,
+      "lr": 0.0001392
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.00751,
+      "val_loss": 0.01209,
+      "val_token_acc": 1.0,
+      "lr": 3.763e-05
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0055,
+      "val_loss": 0.01206,
+      "val_token_acc": 1.0,
+      "lr": 0.0
+    }
+  ]
+}

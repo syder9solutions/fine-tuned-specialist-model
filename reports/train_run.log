@@ -1,0 +1,48 @@
+train=418 test=107 leakage=PASS
+Loading weights:   0%|          | 0/272 [00:00<?, ?it/s]Loading weights:  83%|████████▎ | 225/272 [00:00<00:00, 2226.91it/s]Loading weights: 100%|██████████| 272/272 [00:00<00:00, 2299.82it/s]
+./.venv/lib/python3.14/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+epoch 1/6  train_loss=2.2350  val_loss=0.7504  val_tok_acc=0.813
+./.venv/lib/python3.14/site-packages/peft/utils/save_and_load.py:307: UserWarning: Could not find a config file in HuggingFaceTB/SmolLM2-135M-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+epoch 2/6  train_loss=0.3160  val_loss=0.2204  val_tok_acc=0.928
+epoch 3/6  train_loss=0.0789  val_loss=0.0833  val_tok_acc=0.971
+epoch 4/6  train_loss=0.0173  val_loss=0.0217  val_tok_acc=1.000
+epoch 5/6  train_loss=0.0075  val_loss=0.0121  val_tok_acc=1.000
+epoch 6/6  train_loss=0.0055  val_loss=0.0121  val_tok_acc=1.000
+{
+  "base_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "train_cfg": {
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0,
+    "epochs": 6,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "max_seq_len": 128,
+    "warmup_ratio": 0.06,
+    "max_grad_norm": 1.0,
+    "seed": 20261119,
+    "val_fraction": 0.15,
+    "early_stop_patience": 2,
+    "escalate_class_weight": 1.0
+  },
+  "lora_cfg": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "n_train_inner": 354,
+  "n_val": 64,
+  "epochs_run": 6,
+  "best_epoch": 6,
+  "best_val_loss": 0.01206,
+  "trainable_params": 1843200,
+  "total_params": 136358208,
+  "wall_clock_seconds": 1211.3
+}

@@ -1,0 +1,19 @@
+# CPU-only ML stack (installed in three steps because torch pulls CUDA deps
+# from the default PyPI index; see README quickstart)
+# 1) torch: uv pip install --python .venv/bin/python torch --index-url https://download.pytorch.org/whl/cpu
+# 2) --no-deps layer
+transformers==5.23.0
+peft==0.21.3
+accelerate==1.16.0
+# 3) transitive deps of the above
+huggingface-hub
+safetensors
+tokenizers
+regex
+requests
+tqdm
+pyyaml
+filelock
+packaging
+numpy
+pytest

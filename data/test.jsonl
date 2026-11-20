@@ -1,0 +1,107 @@
+{"text": "no worries talk later thanks", "label": "smalltalk", "kind": "intent", "family": "smalltalk::t6"}
+{"text": "quick one: abstract this paper in plain english", "label": "summarize", "kind": "intent", "family": "summarize::t8"}
+{"text": "show me the email thread about the data migration please", "label": "retrieval", "kind": "intent", "family": "retrieval::t6"}
+{"text": "write a regex that matches jwt tokens", "label": "code", "kind": "intent", "family": "code::t8"}
+{"text": "no worries talk later", "label": "smalltalk", "kind": "intent", "family": "smalltalk::t6"}
+{"text": "who wrote the paper on attention is all you need thanks", "label": "qa", "kind": "intent", "family": "qa::t4"}
+{"text": "interpret this customer email from spanish thanks", "label": "translate", "kind": "intent", "family": "translate::t8"}
+{"text": "quick one: code review meeting moved to thursday", "label": "escalate", "kind": "near_miss_lexical", "family": "escalate::near_miss_lexical::t4"}
+{"text": "quick one: find every mention of the deprecated endpoint", "label": "retrieval", "kind": "intent", "family": "retrieval::t9"}
+{"text": "no smalltalk just give me the data", "label": "escalate", "kind": "near_miss_negation", "family": "escalate::near_miss_negation::t7"}
+{"text": "give me the arabic version of this message thanks", "label": "translate", "kind": "intent", "family": "translate::t3"}
+{"text": "implement debounce in vanilla javascript", "label": "code", "kind": "intent", "family": "code::t6"}
+{"text": "smalltalk is her podcast thanks", "label": "escalate", "kind": "near_miss_entity", "family": "escalate::near_miss_entity::t7"}
+{"text": "quick one: no worries talk later", "label": "smalltalk", "kind": "intent", "family": "smalltalk::t6"}
+{"text": "smalltalk is her podcast", "label": "escalate", "kind": "near_miss_entity", "family": "escalate::near_miss_entity::t7"}
+{"text": "summarize module is throwing an import error", "label": "escalate", "kind": "near_miss_lexical", "family": "escalate::near_miss_lexical::t0"}
+{"text": "convert 120 fahrenheit to celsius thanks", "label": "math", "kind": "intent", "family": "math::t9"}
+{"text": "code review meeting moved to thursday", "label": "escalate", "kind": "near_miss_lexical", "family": "escalate::near_miss_lexical::t4"}
+{"text": "hey can you no worries talk later", "label": "smalltalk", "kind": "intent", "family": "smalltalk::t6"}
+{"text": "quick one: is it safe to mix bleach and ammonia", "label": "qa", "kind": "intent", "family": "qa::t6"}
+{"text": "good morning are you around please", "label": "smalltalk", "kind": "intent", "family": "smalltalk::t2"}
+{"text": "invent a cocktail inspired by karachi please", "label": "creative", "kind": "intent", "family": "creative::t9"}
+{"text": "summarize is our new intern", "label": "escalate", "kind": "near_miss_entity", "family": "escalate::near_miss_entity::t0"}
+{"text": "is it safe to mix bleach and ammonia please", "label": "qa", "kind": "intent", "family": "qa::t6"}
+{"text": "convert 48 fahrenheit to celsius", "label": "math", "kind": "intent", "family": "math::t9"}
+{"text": "quick one: convert 9 fahrenheit to celsius", "label": "math", "kind": "intent", "family": "math::t9"}
+{"text": "is it safe to mix bleach and ammonia", "label": "qa", "kind": "intent", "family": "qa::t6"}
+{"text": "i need you to abstract this paper in plain english", "label": "summarize", "kind": "intent", "family": "summarize::t8"}
+{"text": "i need you to show me the email thread about the data migration", "label": "retrieval", "kind": "intent", "family": "retrieval::t6"}
+{"text": "just make it better", "label": "escalate", "kind": "ambiguous", "family": "escalate::ambiguous::t3"}
+{"text": "hey can you just make it better", "label": "escalate", "kind": "ambiguous", "family": "escalate::ambiguous::t3"}
+{"text": "who wrote the paper on attention is all you need", "label": "qa", "kind": "intent", "family": "qa::t4"}
+{"text": "you dont need to summarize anything", "label": "escalate", "kind": "near_miss_negation", "family": "escalate::near_miss_negation::t8"}
+{"text": "do the thing we talked about please", "label": "escalate", "kind": "ambiguous", "family": "escalate::ambiguous::t1"}
+{"text": "interpret this customer email from french", "label": "translate", "kind": "intent", "family": "translate::t8"}
+{"text": "quick one: invent a cocktail inspired by a small port town", "label": "creative", "kind": "intent", "family": "creative::t9"}
+{"text": "quick one: implement debounce in vanilla javascript", "label": "code", "kind": "intent", "family": "code::t6"}
+{"text": "you know what i mean", "label": "escalate", "kind": "ambiguous", "family": "escalate::ambiguous::t4"}
+{"text": "if a train leaves at 250 going 7 kmh how far in two hours please", "label": "math", "kind": "intent", "family": "math::t5"}
+{"text": "i need you to invent a cocktail inspired by lisbon", "label": "creative", "kind": "intent", "family": "creative::t9"}
+{"text": "quick one: write a toast for a a startup launch party", "label": "creative", "kind": "intent", "family": "creative::t4"}
+{"text": "if a train leaves at 120 going 35 kmh how far in two hours", "label": "math", "kind": "intent", "family": "math::t5"}
+{"text": "write a regex that matches user agents please", "label": "code", "kind": "intent", "family": "code::t8"}
+{"text": "quick one: good morning are you around", "label": "smalltalk", "kind": "intent", "family": "smalltalk::t2"}
+{"text": "if a train leaves at 120 going 7 kmh how far in two hours thanks", "label": "math", "kind": "intent", "family": "math::t5"}
+{"text": "hey can you do the thing we talked about", "label": "escalate", "kind": "ambiguous", "family": "escalate::ambiguous::t1"}
+{"text": "good morning are you around thanks", "label": "smalltalk", "kind": "intent", "family": "smalltalk::t2"}
+{"text": "if a train leaves at 120 going 4 kmh how far in two hours thanks", "label": "math", "kind": "intent", "family": "math::t5"}
+{"text": "find every mention of the deprecated endpoint thanks", "label": "retrieval", "kind": "intent", "family": "retrieval::t9"}
+{"text": "i need you to write a toast for a coffee launch party", "label": "creative", "kind": "intent", "family": "creative::t4"}
+{"text": "hey can you boil this email thread down to two sentences", "label": "summarize", "kind": "intent", "family": "summarize::t5"}
+{"text": "i need you to translate.com is down", "label": "escalate", "kind": "near_miss_lexical", "family": "escalate::near_miss_lexical::t9"}
+{"text": "i need you to if a train leaves at 9 going 7 kmh how far in two hours", "label": "math", "kind": "intent", "family": "math::t5"}
+{"text": "good morning are you around", "label": "smalltalk", "kind": "intent", "family": "smalltalk::t2"}
+{"text": "summarize this article and then translate the summary to spanish", "label": "escalate", "kind": "multi_intent", "family": "escalate::multi_intent::t0"}
+{"text": "quick one: summarize this article and then translate the summary to spanish", "label": "escalate", "kind": "multi_intent", "family": "escalate::multi_intent::t0"}
+{"text": "find the ticket and update it with a summary", "label": "escalate", "kind": "multi_intent", "family": "escalate::multi_intent::t7"}
+{"text": "i need you to summarize is our new intern", "label": "escalate", "kind": "near_miss_entity", "family": "escalate::near_miss_entity::t0"}
+{"text": "hey can you interpret this customer email from japanese", "label": "translate", "kind": "intent", "family": "translate::t8"}
+{"text": "i need you to boil this email thread down to two sentences", "label": "summarize", "kind": "intent", "family": "summarize::t5"}
+{"text": "write a regex that matches user agents thanks", "label": "code", "kind": "intent", "family": "code::t8"}
+{"text": "abstract this paper in plain english", "label": "summarize", "kind": "intent", "family": "summarize::t8"}
+{"text": "quick one: convert 48 fahrenheit to celsius", "label": "math", "kind": "intent", "family": "math::t9"}
+{"text": "invent a cocktail inspired by reykjavik", "label": "creative", "kind": "intent", "family": "creative::t9"}
+{"text": "quick one: give me the spanish version of this message", "label": "translate", "kind": "intent", "family": "translate::t3"}
+{"text": "give me the french version of this message", "label": "translate", "kind": "intent", "family": "translate::t3"}
+{"text": "translate this email and draft a reply in french thanks", "label": "escalate", "kind": "multi_intent", "family": "escalate::multi_intent::t2"}
+{"text": "if a train leaves at 48 going 7 kmh how far in two hours please", "label": "math", "kind": "intent", "family": "math::t5"}
+{"text": "no smalltalk just give me the data thanks", "label": "escalate", "kind": "near_miss_negation", "family": "escalate::near_miss_negation::t7"}
+{"text": "hey can you without translating it just tell me the gist", "label": "escalate", "kind": "near_miss_negation", "family": "escalate::near_miss_negation::t9"}
+{"text": "boil this email thread down to two sentences please", "label": "summarize", "kind": "intent", "family": "summarize::t5"}
+{"text": "i need you to write a toast for a a startup launch party", "label": "creative", "kind": "intent", "family": "creative::t4"}
+{"text": "quick one: give me the german version of this message", "label": "translate", "kind": "intent", "family": "translate::t3"}
+{"text": "i need you to who wrote the paper on attention is all you need", "label": "qa", "kind": "intent", "family": "qa::t4"}
+{"text": "hey can you convert 48 fahrenheit to celsius", "label": "math", "kind": "intent", "family": "math::t9"}
+{"text": "quick one: show me the email thread about the data migration", "label": "retrieval", "kind": "intent", "family": "retrieval::t6"}
+{"text": "hey can you interpret this customer email from french", "label": "translate", "kind": "intent", "family": "translate::t8"}
+{"text": "math is the contractor we hired", "label": "escalate", "kind": "near_miss_entity", "family": "escalate::near_miss_entity::t5"}
+{"text": "boil this email thread down to two sentences", "label": "summarize", "kind": "intent", "family": "summarize::t5"}
+{"text": "quick one: write a regex that matches user agents", "label": "code", "kind": "intent", "family": "code::t8"}
+{"text": "without translating it just tell me the gist", "label": "escalate", "kind": "near_miss_negation", "family": "escalate::near_miss_negation::t9"}
+{"text": "i need you to summarize this article and then translate the summary to spanish", "label": "escalate", "kind": "multi_intent", "family": "escalate::multi_intent::t0"}
+{"text": "i need you to is it safe to mix bleach and ammonia", "label": "qa", "kind": "intent", "family": "qa::t6"}
+{"text": "hey can you abstract this paper in plain english", "label": "summarize", "kind": "intent", "family": "summarize::t8"}
+{"text": "invent a cocktail inspired by lisbon thanks", "label": "creative", "kind": "intent", "family": "creative::t9"}
+{"text": "implement debounce in vanilla javascript thanks", "label": "code", "kind": "intent", "family": "code::t6"}
+{"text": "find every mention of the deprecated endpoint please", "label": "retrieval", "kind": "intent", "family": "retrieval::t9"}
+{"text": "hey can you write a regex that matches iso dates", "label": "code", "kind": "intent", "family": "code::t8"}
+{"text": "translate.com is down", "label": "escalate", "kind": "near_miss_lexical", "family": "escalate::near_miss_lexical::t9"}
+{"text": "do the thing we talked about", "label": "escalate", "kind": "ambiguous", "family": "escalate::ambiguous::t1"}
+{"text": "i need you to interpret this customer email from japanese", "label": "translate", "kind": "intent", "family": "translate::t8"}
+{"text": "quick one: summarize module is throwing an import error", "label": "escalate", "kind": "near_miss_lexical", "family": "escalate::near_miss_lexical::t0"}
+{"text": "abstract this paper in plain english please", "label": "summarize", "kind": "intent", "family": "summarize::t8"}
+{"text": "quick one: math is the contractor we hired", "label": "escalate", "kind": "near_miss_entity", "family": "escalate::near_miss_entity::t5"}
+{"text": "translate this email and draft a reply in french", "label": "escalate", "kind": "multi_intent", "family": "escalate::multi_intent::t2"}
+{"text": "give me the japanese version of this message thanks", "label": "translate", "kind": "intent", "family": "translate::t3"}
+{"text": "i need you to you dont need to summarize anything", "label": "escalate", "kind": "near_miss_negation", "family": "escalate::near_miss_negation::t8"}
+{"text": "i need you to find the ticket and update it with a summary", "label": "escalate", "kind": "multi_intent", "family": "escalate::multi_intent::t7"}
+{"text": "implement debounce in vanilla javascript please", "label": "code", "kind": "intent", "family": "code::t6"}
+{"text": "boil this email thread down to two sentences thanks", "label": "summarize", "kind": "intent", "family": "summarize::t5"}
+{"text": "quick one: interpret this customer email from portuguese", "label": "translate", "kind": "intent", "family": "translate::t8"}
+{"text": "you know what i mean thanks", "label": "escalate", "kind": "ambiguous", "family": "escalate::ambiguous::t4"}
+{"text": "write a toast for a a startup launch party", "label": "creative", "kind": "intent", "family": "creative::t4"}
+{"text": "quick one: give me the urdu version of this message", "label": "translate", "kind": "intent", "family": "translate::t3"}
+{"text": "i need you to implement debounce in vanilla javascript", "label": "code", "kind": "intent", "family": "code::t6"}
+{"text": "find every mention of the deprecated endpoint", "label": "retrieval", "kind": "intent", "family": "retrieval::t9"}
+{"text": "show me the email thread about the data migration", "label": "retrieval", "kind": "intent", "family": "retrieval::t6"}
